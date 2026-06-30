@@ -33,37 +33,51 @@ We care about:
 - **Long-term maintainability** — explicit naming, clear boundaries and documentation that a new developer can follow
 - **Independent open source** — useful tools first, commercial packaging later if the project becomes sustainable
 
-## Go ecosystem
+## Recommended projects
 
-| Project | What it is | Status |
-| --- | --- | --- |
-| [Runa](https://github.com/duxweb/runa) | Go Web framework for business applications, built around a lightweight core and installable capabilities | Main project |
-| [Oro](https://github.com/duxweb/oro) | Generic-first ORM for Go | Main project |
-
-```bash
-go get github.com/duxweb/runa@v0.1.0
-```
-
-## PHP ecosystem
-
-| Project | What it is | Status |
-| --- | --- | --- |
-| [dux-ai](https://github.com/duxweb/dux-ai) | PHP 8 based AI application system | Main project |
-| [dux-lite](https://github.com/duxweb/dux-lite) | Lightweight PHP framework based on Slim | Main project |
-
-## Frontend and documentation
-
-| Project | What it is | Status |
-| --- | --- | --- |
-| [dvha](https://github.com/duxweb/dvha) | Vue 3 headless admin framework | Main project |
-| [vela](https://github.com/duxweb/vela) | Astro documentation framework used by Dux projects | Main project |
-
-## Desktop and developer tools
-
-| Project | What it is | Status |
-| --- | --- | --- |
-| [codux](https://github.com/duxweb/codux) | Native connected terminal for AI agent development | Main project |
-| [codux-flutter](https://github.com/duxweb/codux-flutter) | Mobile companion for the Codux terminal workspace | Main project |
+<table width="100%">
+  <tr>
+    <th align="left" width="22%">Area</th>
+    <th align="left" width="24%">Project</th>
+    <th align="left">Focus</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>Go ecosystem</strong></td>
+    <td><a href="https://github.com/duxweb/runa"><strong>Runa</strong></a></td>
+    <td>Go Web framework for business applications, built around a lightweight core and installable capabilities</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/duxweb/oro"><strong>Oro</strong></a></td>
+    <td>Generic-first ORM for Go</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>PHP ecosystem</strong></td>
+    <td><a href="https://github.com/duxweb/dux-ai"><strong>dux-ai</strong></a></td>
+    <td>PHP 8 based AI application system</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/duxweb/dux-lite"><strong>dux-lite</strong></a></td>
+    <td>Lightweight PHP framework based on Slim</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>Frontend and docs</strong></td>
+    <td><a href="https://github.com/duxweb/dvha"><strong>dvha</strong></a></td>
+    <td>Vue 3 headless admin framework</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/duxweb/vela"><strong>vela</strong></a></td>
+    <td>Astro documentation framework used by Dux projects</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>Desktop tools</strong></td>
+    <td><a href="https://github.com/duxweb/codux"><strong>codux</strong></a></td>
+    <td>Native connected terminal for AI agent development</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/duxweb/codux-flutter"><strong>codux-flutter</strong></a></td>
+    <td>Mobile companion for the Codux terminal workspace</td>
+  </tr>
+</table>
 
 ## 中文
 
