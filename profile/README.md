@@ -37,12 +37,8 @@ We care about:
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [Runa](https://github.com/duxweb/runa) | Go Web framework for business applications, built around a lightweight core and installable capabilities | Active |
-| [Oro](https://github.com/duxweb/oro) | Generic-first ORM for Go | Active |
-| [go-queue](https://github.com/duxweb/go-queue) | Native Go queue framework for background jobs | Existing project |
-| [go-storage](https://github.com/duxweb/go-storage) | S3-compatible object storage library | Existing project |
-| [go-lock](https://github.com/duxweb/go-lock) | Distributed lock library for Go applications | Existing project |
-| [go-ws](https://github.com/duxweb/go-ws) | WebSocket communication library for Go | Existing project |
+| [Runa](https://github.com/duxweb/runa) | Go Web framework for business applications, built around a lightweight core and installable capabilities | Main project |
+| [Oro](https://github.com/duxweb/oro) | Generic-first ORM for Go | Main project |
 
 ```bash
 go get github.com/duxweb/runa@v0.1.0
@@ -52,31 +48,22 @@ go get github.com/duxweb/runa@v0.1.0
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [dux-ai](https://github.com/duxweb/dux-ai) | PHP 8 based AI application system | Active |
-| [dux-lite](https://github.com/duxweb/dux-lite) | Lightweight PHP framework based on Slim | Existing project |
-| [dux-php-admin](https://github.com/duxweb/dux-php-admin) | PHP + Vue admin system for backend management | Existing project |
-| [duxcms](https://github.com/duxweb/duxcms) | PHP + React backend management system | Existing project |
-| [dux-lite-cloud](https://github.com/duxweb/dux-lite-cloud) | Cloud service extension package for Dux Lite | Existing project |
+| [dux-ai](https://github.com/duxweb/dux-ai) | PHP 8 based AI application system | Main project |
+| [dux-lite](https://github.com/duxweb/dux-lite) | Lightweight PHP framework based on Slim | Main project |
 
 ## Frontend and documentation
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [dux-vue-admin](https://github.com/duxweb/dux-vue-admin) | Vue based middle/back-office frontend framework | Active |
-| [dvha](https://github.com/duxweb/dvha) | Vue 3 headless admin framework | Active |
-| [dux-uni](https://github.com/duxweb/dux-uni) | Headless framework for uni-app projects | Active |
-| [vela](https://github.com/duxweb/vela) | Astro documentation framework used by Dux projects | Active |
-| [vitepress-theme](https://github.com/duxweb/vitepress-theme) | VitePress theme for documentation sites | Existing project |
+| [dvha](https://github.com/duxweb/dvha) | Vue 3 headless admin framework | Main project |
+| [vela](https://github.com/duxweb/vela) | Astro documentation framework used by Dux projects | Main project |
 
 ## Desktop and developer tools
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [codux](https://github.com/duxweb/codux) | Native connected terminal for AI agent development | Active |
-| [codux-flutter](https://github.com/duxweb/codux-flutter) | Mobile companion for the Codux terminal workspace | Active |
-| [codux-service](https://github.com/duxweb/codux-service) | Relay service for Codux desktop and mobile pairing | Active |
-| [dux-ai-desktop](https://github.com/duxweb/dux-ai-desktop) | Desktop client for Dux AI | Existing project |
-| [dux-ai-node](https://github.com/duxweb/dux-ai-node) | Desktop execution capability for Dux AI | Existing project |
+| [codux](https://github.com/duxweb/codux) | Native connected terminal for AI agent development | Main project |
+| [codux-flutter](https://github.com/duxweb/codux-flutter) | Mobile companion for the Codux terminal workspace | Main project |
 
 ## 中文
 
@@ -84,4 +71,4 @@ DuxWeb 是一个独立开源组织，目前没有稳定收入来源，主要由�
 
 我们关注的不是只适合演示的项目，而是真正能落到业务开发里的框架和工具。这里的大多数软件都来自真实项目经验：先在实际业务里遇到问题，再把反复出现的方案整理、抽象并开源出来。当前项目覆盖 Go、PHP、前端、文档主题、桌面软件和 AI 开发工具等方向。
 
-如果你正在寻找可以长期演进的业务开发框架，可以先看 [Runa](https://github.com/duxweb/runa)、[Oro](https://github.com/duxweb/oro)、[dux-ai](https://github.com/duxweb/dux-ai)、[dux-vue-admin](https://github.com/duxweb/dux-vue-admin) 和 [Codux](https://github.com/duxweb/codux)。
+如果你正在寻找可以长期演进的业务开发框架，可以先看 [Runa](https://github.com/duxweb/runa)、[Oro](https://github.com/duxweb/oro)、[dux-ai](https://github.com/duxweb/dux-ai)、[dux-lite](https://github.com/duxweb/dux-lite)、[dvha](https://github.com/duxweb/dvha)、[vela](https://github.com/duxweb/vela) 和 [Codux](https://github.com/duxweb/codux)。
