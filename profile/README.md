@@ -22,7 +22,7 @@
 
 ## About DuxWeb
 
-DuxWeb is a small, independent open-source organization with no stable revenue source. Most of the work is currently designed, developed and maintained by one person, with help from users, feedback and contributors when available.
+DuxWeb is a small, independent open-source organization without sponsorship at the moment. Most of the work is currently designed, developed and maintained by one person, with help from users, feedback and contributors when available.
 
 The goal is simple: build frameworks and developer tools that are useful in real business projects, not just demos. Most of these projects come from repeated problems we met while building real products, then were cleaned up, generalized and released as open source. The projects here cover backend frameworks, admin systems, frontend tooling, documentation themes and native developer tools.
 
@@ -81,7 +81,7 @@ We care about:
 
 ## 中文
 
-DuxWeb 是一个独立开源组织，目前没有稳定收入来源，主要由一人持续开发和维护，也会根据用户反馈与社区贡献不断调整方向。
+DuxWeb 是一个独立开源组织，目前还没有任何赞助，主要由一人持续开发和维护，也会根据用户反馈与社区贡献不断调整方向。
 
 我们关注的不是只适合演示的项目，而是真正能落到业务开发里的框架和工具。这里的大多数软件都来自真实项目经验：先在实际业务里遇到问题，再把反复出现的方案整理、抽象并开源出来。当前项目覆盖 Go、PHP、前端、文档主题、桌面软件和 AI 开发工具等方向。
 
