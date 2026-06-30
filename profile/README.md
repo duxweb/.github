@@ -33,6 +33,12 @@ We care about:
 - **Long-term maintainability** — explicit naming, clear boundaries and documentation that a new developer can follow
 - **Independent open source** — useful tools first, commercial packaging later if the project becomes sustainable
 
+## Contact
+
+If you have a project that needs custom development, framework integration, business system architecture or technical consulting, you can contact me by email. Sponsorship and long-term collaboration are also welcome.
+
+- Email: <admin@dux.plus>
+
 ## Recommended projects
 
 <table width="100%">
@@ -86,3 +92,5 @@ DuxWeb 是一个独立开源组织，目前还没有任何赞助，主要由一�
 我们关注的不是只适合演示的项目，而是真正能落到业务开发里的框架和工具。这里的大多数软件都来自真实项目经验：先在实际业务里遇到问题，再把反复出现的方案整理、抽象并开源出来。当前项目覆盖 Go、PHP、前端、文档主题、桌面软件和 AI 开发工具等方向。
 
 如果你正在寻找可以长期演进的业务开发框架，可以先看 [Runa](https://github.com/duxweb/runa)、[Oro](https://github.com/duxweb/oro)、[dux-ai](https://github.com/duxweb/dux-ai)、[dux-lite](https://github.com/duxweb/dux-lite)、[dvha](https://github.com/duxweb/dvha)、[vela](https://github.com/duxweb/vela) 和 [Codux](https://github.com/duxweb/codux)。
+
+如果你有项目开发、框架集成、业务系统架构或技术咨询需求，也可以通过邮件联系我：<admin@dux.plus>。欢迎赞助、合作或长期项目支持。
