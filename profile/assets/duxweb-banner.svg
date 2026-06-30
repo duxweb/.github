@@ -1,0 +1,78 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DuxWeb banner</title>
+  <desc id="desc">A refined banner for the DuxWeb organization, showing a modular application architecture from microkernel to business systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110F"/>
+      <stop offset="0.52" stop-color="#0D1B17"/>
+      <stop offset="1" stop-color="#18231A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="236" y1="209" x2="1042" y2="209" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7F36B" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#B7F36B"/>
+      <stop offset="0.5" stop-color="#75E6B6"/>
+      <stop offset="0.88" stop-color="#E8B45B"/>
+      <stop offset="1" stop-color="#E8B45B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 210) rotate(90) scale(250 520)">
+      <stop stop-color="#75E6B6" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#75E6B6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#glow)"/>
+
+  <g opacity="0.42">
+    <path d="M116 76H1164" stroke="#DBF7D0" stroke-opacity="0.1"/>
+    <path d="M116 344H1164" stroke="#DBF7D0" stroke-opacity="0.1"/>
+    <path d="M168 38V382" stroke="#DBF7D0" stroke-opacity="0.08"/>
+    <path d="M1112 38V382" stroke="#DBF7D0" stroke-opacity="0.08"/>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="130" y="126" width="210" height="168" rx="24" fill="#F2F8E9"/>
+    <rect x="148" y="144" width="174" height="20" rx="10" fill="#101C18" fill-opacity="0.1"/>
+    <rect x="148" y="184" width="78" height="78" rx="18" fill="#101C18"/>
+    <path d="M177 218L190 231L213 201" stroke="#B7F36B" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="186" width="64" height="10" rx="5" fill="#101C18" fill-opacity="0.68"/>
+    <rect x="240" y="210" width="48" height="10" rx="5" fill="#101C18" fill-opacity="0.36"/>
+    <rect x="240" y="234" width="66" height="10" rx="5" fill="#101C18" fill-opacity="0.22"/>
+  </g>
+
+  <path d="M340 210H508" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+
+  <g filter="url(#soft)">
+    <rect x="508" y="92" width="264" height="236" rx="30" fill="#111F1A" stroke="#DDF7CF" stroke-opacity="0.15"/>
+    <circle cx="640" cy="162" r="44" fill="#B7F36B"/>
+    <path d="M618 164C618 150 627 140 640 140C653 140 662 150 662 164V188H618V164Z" fill="#0C1713"/>
+    <path d="M606 206H674" stroke="#F2F8E9" stroke-opacity="0.82" stroke-width="12" stroke-linecap="round"/>
+    <path d="M586 236H694" stroke="#F2F8E9" stroke-opacity="0.42" stroke-width="10" stroke-linecap="round"/>
+    <path d="M606 264H674" stroke="#F2F8E9" stroke-opacity="0.22" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <path d="M772 210H940" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+
+  <g filter="url(#soft)">
+    <rect x="940" y="126" width="210" height="168" rx="24" fill="#F8F0DF"/>
+    <rect x="962" y="154" width="70" height="44" rx="14" fill="#101C18" fill-opacity="0.8"/>
+    <rect x="1050" y="154" width="78" height="12" rx="6" fill="#101C18" fill-opacity="0.48"/>
+    <rect x="1050" y="180" width="58" height="12" rx="6" fill="#101C18" fill-opacity="0.28"/>
+    <rect x="962" y="222" width="166" height="14" rx="7" fill="#101C18" fill-opacity="0.18"/>
+    <rect x="962" y="250" width="118" height="14" rx="7" fill="#101C18" fill-opacity="0.14"/>
+  </g>
+
+  <g>
+    <text x="640" y="54" text-anchor="middle" fill="#F2F8E9" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" letter-spacing="0.18em">DUXWEB</text>
+    <text x="640" y="378" text-anchor="middle" fill="#DBF7D0" fill-opacity="0.76" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="650">from lightweight core to business-ready applications</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="378" cy="210" r="5" fill="#B7F36B"/>
+    <circle cx="902" cy="210" r="5" fill="#E8B45B"/>
+    <circle cx="640" cy="210" r="6" fill="#75E6B6"/>
+  </g>
+</svg>
