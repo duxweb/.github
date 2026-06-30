@@ -5,59 +5,83 @@
 <h1 align="center">DuxWeb</h1>
 
 <p align="center">
-  <strong>Open-source frameworks and developer tools for building business applications.</strong>
+  <strong>An independent open-source organization building practical frameworks and tools for business software.</strong>
 </p>
 
 <p align="center">
-  <a href="https://duxweb.github.io/runa/">Runa Docs</a>
-  ·
   <a href="https://github.com/duxweb/runa">Runa</a>
   ·
-  <a href="https://github.com/duxweb/runa/releases">Releases</a>
+  <a href="https://duxweb.github.io/runa/">Runa Docs</a>
+  ·
+  <a href="https://github.com/duxweb/oro">Oro</a>
+  ·
+  <a href="https://github.com/duxweb/codux">Codux</a>
 </p>
 
 ---
 
-## What we build
+## About DuxWeb
 
-DuxWeb focuses on application frameworks that stay small at the core and grow by installing only the capabilities a project needs.
+DuxWeb is a small, independent open-source organization with no stable revenue source. Most of the work is currently designed, developed and maintained by one person, with help from users, feedback and contributors when available.
 
-- **Business-first architecture** — routing, configuration, commands, lifecycle, validation, OpenAPI, queues and database access are designed for real applications
-- **Microkernel direction** — core packages stay lean, optional capabilities live in independent modules, and heavy drivers stay outside the default dependency graph
-- **Developer experience** — clear naming, structured routing, resource-style APIs, generated project structure and practical documentation
-- **Scalable adoption** — works for small HTTP services and leaves room for larger enterprise systems
+The goal is simple: build frameworks and developer tools that are useful in real business projects, not just demos. The projects here cover backend frameworks, admin systems, frontend tooling, documentation themes and native developer tools.
 
-## Featured project
+We care about:
 
-<table>
-  <tr>
-    <td width="30%"><strong>Runa</strong></td>
-    <td>A Go web framework designed for business development, built around a lightweight core and installable capabilities.</td>
-  </tr>
-  <tr>
-    <td><strong>Status</strong></td>
-    <td>v0.1.0 public release</td>
-  </tr>
-  <tr>
-    <td><strong>Links</strong></td>
-    <td><a href="https://github.com/duxweb/runa">Repository</a> · <a href="https://duxweb.github.io/runa/">Documentation</a> · <a href="https://github.com/duxweb/runa/releases">Releases</a></td>
-  </tr>
-</table>
+- **Practical architecture** — small cores, clear modules and features that match real application work
+- **Business development** — routing, admin panels, forms, OpenAPI, database, queues, permissions and operational tooling
+- **Long-term maintainability** — explicit naming, clear boundaries and documentation that a new developer can follow
+- **Independent open source** — useful tools first, commercial packaging later if the project becomes sustainable
+
+## Go ecosystem
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [Runa](https://github.com/duxweb/runa) | Go Web framework for business applications, built around a lightweight core and installable capabilities | Active |
+| [Oro](https://github.com/duxweb/oro) | Generic-first ORM for Go | Active |
+| [go-queue](https://github.com/duxweb/go-queue) | Native Go queue framework for background jobs | Existing project |
+| [go-storage](https://github.com/duxweb/go-storage) | S3-compatible object storage library | Existing project |
+| [go-lock](https://github.com/duxweb/go-lock) | Distributed lock library for Go applications | Existing project |
+| [go-ws](https://github.com/duxweb/go-ws) | WebSocket communication library for Go | Existing project |
 
 ```bash
 go get github.com/duxweb/runa@v0.1.0
 ```
 
-## Projects
+## PHP ecosystem
 
-| Project | Description |
-| --- | --- |
-| [Runa](https://github.com/duxweb/runa) | Go Web framework for business applications |
-| Dux AI | AI application and business tooling ecosystem |
-| Dux Lite | Lightweight application framework and admin-oriented tooling |
+| Project | What it is | Status |
+| --- | --- | --- |
+| [dux-ai](https://github.com/duxweb/dux-ai) | PHP 8 based AI application system | Active |
+| [dux-lite](https://github.com/duxweb/dux-lite) | Lightweight PHP framework based on Slim | Existing project |
+| [dux-php-admin](https://github.com/duxweb/dux-php-admin) | PHP + Vue admin system for backend management | Existing project |
+| [duxcms](https://github.com/duxweb/duxcms) | PHP + React backend management system | Existing project |
+| [dux-lite-cloud](https://github.com/duxweb/dux-lite-cloud) | Cloud service extension package for Dux Lite | Existing project |
+
+## Frontend and documentation
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [dux-vue-admin](https://github.com/duxweb/dux-vue-admin) | Vue based middle/back-office frontend framework | Active |
+| [dvha](https://github.com/duxweb/dvha) | Vue 3 headless admin framework | Active |
+| [dux-uni](https://github.com/duxweb/dux-uni) | Headless framework for uni-app projects | Active |
+| [vela](https://github.com/duxweb/vela) | Astro documentation framework used by Dux projects | Active |
+| [vitepress-theme](https://github.com/duxweb/vitepress-theme) | VitePress theme for documentation sites | Existing project |
+
+## Desktop and developer tools
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [codux](https://github.com/duxweb/codux) | Native connected terminal for AI agent development | Active |
+| [codux-flutter](https://github.com/duxweb/codux-flutter) | Mobile companion for the Codux terminal workspace | Active |
+| [codux-service](https://github.com/duxweb/codux-service) | Relay service for Codux desktop and mobile pairing | Active |
+| [dux-ai-desktop](https://github.com/duxweb/dux-ai-desktop) | Desktop client for Dux AI | Existing project |
+| [dux-ai-node](https://github.com/duxweb/dux-ai-node) | Desktop execution capability for Dux AI | Existing project |
 
 ## 中文
 
-DuxWeb 专注于面向业务开发的开源框架与工具。我们希望框架的核心保持轻量，能力按需安装，从小型 HTTP 服务到企业级业务系统都能自然扩展。
+DuxWeb 是一个独立开源组织，目前没有稳定收入来源，主要由一人持续开发和维护，也会根据用户反馈与社区贡献不断调整方向。
 
-目前重点项目是 [Runa](https://github.com/duxweb/runa)：一个适用于业务开发的 Go Web 框架，围绕微内核、结构化路由、OpenAPI、配置、命令、生命周期、队列和数据库能力构建。
+我们关注的不是只适合演示的项目，而是真正能落到业务开发里的框架和工具。当前项目覆盖 Go、PHP、前端、文档主题、桌面软件和 AI 开发工具等方向。
+
+如果你正在寻找可以长期演进的业务开发框架，可以先看 [Runa](https://github.com/duxweb/runa)、[Oro](https://github.com/duxweb/oro)、[dux-ai](https://github.com/duxweb/dux-ai)、[dux-vue-admin](https://github.com/duxweb/dux-vue-admin) 和 [Codux](https://github.com/duxweb/codux)。
